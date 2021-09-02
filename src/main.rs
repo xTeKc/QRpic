@@ -1,9 +1,6 @@
 use qrcode::QrCode;
 use image::Luma;
 
-#[macro_use]
-extern crate fstrings;
-
 // fn output() {
 //     let mut line = String::new();
 //     println!("Enter Output: \n");
