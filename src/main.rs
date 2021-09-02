@@ -1,5 +1,6 @@
 use qrcode::QrCode;
 use image::Luma;
+use colored::*;
 
 fn output() {
     let mut line = String::new();
@@ -9,20 +10,20 @@ fn output() {
     println!("Number of Bytes Read: {}", b1);
 }
 
-fn qr_data() {
-    // Encode some data into bits.
-    let code = QrCode::new(" ").unwrap();
+// fn qr_data() {
+//     // Encode some data into bits.
+//     let code = QrCode::new(" ").unwrap();
 
     
     
-    // Render the bits into an image.
-    let image = code.render::<Luma<u8>>().build();
+//     // Render the bits into an image.
+//     let image = code.render::<Luma<u8>>().build();
 
-    // Save the image.
-    image.save("img/qrcode3.png").unwrap();
-}
+//     // Save the image.
+//     image.save("img/qrcode3.png").unwrap();
+// }
 
 fn main() {
     output();
-    qr_data();
+    // qr_data();
 }
