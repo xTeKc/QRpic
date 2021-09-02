@@ -9,7 +9,7 @@ use image::Luma;
 //     println!("Number of Bytes Read: {}", b1);
 // }
 
-fn main() {
+fn qr_data() {
     // Encode some data into bits.
     let code = QrCode::new(" ").unwrap();
 
@@ -20,4 +20,8 @@ fn main() {
 
     // Save the image.
     image.save("img/qrcode3.png").unwrap();
+}
+
+fn main() {
+    qr_data();
 }
