@@ -13,8 +13,6 @@ fn output() {
 }
 
 fn main() {
-    let output_data = output();
-
     // Encode some data into bits.
     let code = QrCode::new(" ").unwrap();
 
