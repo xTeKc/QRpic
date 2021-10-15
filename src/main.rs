@@ -1,6 +1,3 @@
-#![allow(unused_must_use)]
-use qrcode::bits::Bits;
-use qrcode::types::Version;
 use qrcode::QrCode;
 use image::Luma;
 use colored::*;
@@ -32,5 +29,5 @@ fn qr_save() {
 
 fn main() {
     // qr_data();
-    qr_save();
+    // qr_save();
 }
