@@ -1,5 +1,6 @@
 use qrcode::QrCode;
 use egui::*;
+use rand::*;
 
 // fn output() {
 //     let mut line = String::new();
