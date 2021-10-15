@@ -1,6 +1,5 @@
 use qrcode::QrCode;
-use image::Luma;
-use colored::*;
+use egui::*;
 
 // fn output() {
 //     let mut line = String::new();
@@ -15,6 +14,13 @@ fn qr_data() {
     let string = code.render::<char>().quiet_zone(false).module_dimensions(2, 1).build();
     println!("{}", string);
 }
+
+fn gui() {
+    let new_qr: String = " "; 
+
+
+}
+
 
 // fn qr_save() {
 //     // Encode some data into bits.
