@@ -1,4 +1,5 @@
 use qrcode::QrCode;
-use egui::*;
-use rand::prelude::*;
 
+fn main() {
+    
+}
